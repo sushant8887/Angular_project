@@ -1,9 +1,27 @@
-# Angular_project
-This project demonstrates the power of Angular and JSON Server in building dynamic, data-driven web applications. 
-This Angular project is a Single Page Application (SPA) that provides a smooth user experience by dynamically updating the webpage with new data from the server, without requiring a full page reload. It’s built using Angular, a powerful framework for building complex web applications.
+# AppDemo
 
-The project uses JSON Server for its backend. JSON Server is a simple tool that lets you set up a RESTful API in seconds. It’s based on a JSON file which acts as a database for the application. This allows the Angular application to perform CRUD operations (Create, Read, Update, Delete) on the data stored in the JSON file.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
 
-The Angular application communicates with the JSON Server API using HTTP requests. It uses Angular’s HttpClient module to send these requests and receive responses from the server. The application can create new entries in the database, read existing entries, update entries, and delete entries, all through the JSON Server API.
+## Development server
 
-The project is structured using Angular’s component-based architecture. Each part of the application is encapsulated in a component, which includes a TypeScript class for the component’s logic, an HTML template for the component’s view, and a CSS file for the component’s styling.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
